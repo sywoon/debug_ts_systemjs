@@ -24,7 +24,7 @@
 //     }
 // }
 
-import { Canvas2D } from "./canvas/Canvas2D.ts"
+import { Canvas2D } from "./canvas/Canvas2D"
 
 let canvas: HTMLCanvasElement | null = document.getElementById("canvas") as HTMLCanvasElement;
 if (canvas === null) {
